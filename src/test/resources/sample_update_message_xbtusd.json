@@ -1,0 +1,15 @@
+{
+  "table": "orderBookL2",
+  "action": "update",
+  "data": [
+    {
+      "symbol": "XBTUSD",
+      "id": 98876695450,
+      "side": "Buy",
+      "size": 122700,
+      "price": 94713.2,
+      "timestamp": "2025-04-25T21:40:14.984Z",
+      "transactTime": "2025-04-25T21:40:14.962Z"
+    }
+  ]
+}

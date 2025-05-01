@@ -1,0 +1,42 @@
+{
+  "table": "orderBookL2",
+  "action": "insert",
+  "data": [
+    {
+      "symbol": "XBTUSD",
+      "id": 98876719497,
+      "side": "Sell",
+      "size": 45700,
+      "price": 94779.9,
+      "timestamp": "2025-04-25T21:40:14.984Z",
+      "transactTime": "2025-04-25T21:40:14.961Z"
+    },
+    {
+      "symbol": "XBTUSD",
+      "id": 98876719487,
+      "side": "Sell",
+      "size": 16400,
+      "price": 94738.9,
+      "timestamp": "2025-04-25T21:40:14.984Z",
+      "transactTime": "2025-04-25T21:40:14.958Z"
+    },
+    {
+      "symbol": "XBTUSD",
+      "id": 98876719515,
+      "side": "Buy",
+      "size": 2112000,
+      "price": 94613.8,
+      "timestamp": "2025-04-25T21:40:14.984Z",
+      "transactTime": "2025-04-25T21:40:14.967Z"
+    },
+    {
+      "symbol": "XBTUSD",
+      "id": 98876719502,
+      "side": "Buy",
+      "size": 16400,
+      "price": 94707.4,
+      "timestamp": "2025-04-25T21:40:14.984Z",
+      "transactTime": "2025-04-25T21:40:14.962Z"
+    }
+  ]
+}

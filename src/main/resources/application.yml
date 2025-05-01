@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: market-data-handler
+
+  datasource:
+    #     if you want to view the data in DataGrip/etc
+#    url: jdbc:h2:file:./data/orderbookdb;DB_CLOSE_DELAY=-1;AUTO_SERVER=TRUE
+    url: jdbc:h2:file:./data/orderbookdb;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  sql:
+    init:
+      mode: always
+
+bitmex:
+  websocket:
+    url: wss://www.bitmex.com/realtime
+  symbols:
+    -XBTUSD
+     -ETHUSD
+
+orderbook:
+  snapshot:
+    levels: 10
+
+logging:
+  file:
+    name: logs/market-data-handler.log
+  level:
+    root: INFO
+    # com.lunartrading.marketdata: DEBUG  # Uncomment for module-specific logging
