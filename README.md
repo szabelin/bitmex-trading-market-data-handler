@@ -1,4 +1,4 @@
-# Lunar Trading Market Data Handler
+# BitMEX Trading Market Data Handler
 
 This project implements a real-time market data handler for BitMEX's `orderBookL2` feed. It listens to the BitMEX
 WebSocket stream, maintains an in-memory order book (bids and asks), and publishes full or partial snapshots which are
